@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "AI Commerce Ops",
-  description: "AI-powered commerce operations dashboard for modern storefront teams.",
+  description: "Demo AI-powered commerce operations dashboard prototype with mock data.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
