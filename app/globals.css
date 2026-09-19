@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 245, 248, 255;
+  --background-rgb: 2, 6, 23;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(circle at top, rgba(124, 58, 237, 0.24), transparent 30%),
+    linear-gradient(180deg, rgb(2, 6, 23), rgb(15, 23, 42));
+  color: rgb(var(--foreground-rgb));
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(139, 92, 246, 0.35);
+}
